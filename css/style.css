@@ -50,7 +50,7 @@ body {
     border-bottom-right-radius: 5em;
     overflow: hidden;
     width: 90%;
-    max-width: 576px;
+    max-width: 600px;
 }
 
 .content-container .content {
@@ -127,6 +127,7 @@ form .icon-arrow:focus {
 .result h1 {
     font-family: "Poppins-X-Bold-I";
     font-size: 3.5rem;
+    line-height: 1;
 }
 
 .result h1 span {
@@ -154,5 +155,14 @@ form .icon-arrow:focus {
     form .icon-arrow {
         right: 0;
         left: auto;
+    }
+
+    form .inputs {
+        width: 80%;
+    }
+
+    .result h1 {
+        font-family: "Poppins-X-Bold-I";
+        font-size: 5rem;
     }
 }
