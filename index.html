@@ -24,17 +24,17 @@
             <div class="inputs">
               <div class="input-container">
                 <label for="day">Day</label>
-                <input type="text" required name="day" id="day" placeholder="DD"/>
+                <input type="text" required name="day" id="day" placeholder="DD" maxlength="2" minlength="2"/>
                 <span class="error day-error"></span>
               </div>
               <div class="input-container">
                 <label for="month">Month</label>
-                <input type="text" required name="month" id="month" placeholder="MM"/>
+                <input type="text" required name="month" id="month" placeholder="MM" maxlength="2" minlength="2"/>
                 <span class="error month-error"></span>
               </div>
               <div class="input-container">
                 <label for="year">Year</label>
-                <input type="text" required name="year" id="year" placeholder="YYYY"/>
+                <input type="text" required name="year" id="year" placeholder="YYYY" maxlength="4" minlength="4"/>
                 <span class="error year-error"></span>
               </div>
             </div>
@@ -44,13 +44,13 @@
           </form>
           <div class="result">
             <h1 class="year">
-              <span class="years">--</span> years
+              <span class="years">--</span> <span class="year-s">years</span>
             </h1>
             <h1 class="month">
-              <span class="months">--</span> months 
+              <span class="months">--</span> <span class="month-s">months</span> 
             </h1>
             <h1 class="day">
-              <span class="days">--</span> days
+              <span class="days">--</span> <span class="day-s">days</span>
             </h1>
           </div>
         </div>

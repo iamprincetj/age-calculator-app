@@ -130,7 +130,7 @@ form .icon-arrow:focus {
     line-height: 1;
 }
 
-.result h1 span {
+.result h1 span:first-child {
     color: var(--Purple);
 }
 
